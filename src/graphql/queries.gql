@@ -1,0 +1,7 @@
+query TODO_ITEMS {
+  todoItems @client {
+    id
+    text
+    done
+  }
+}

@@ -3,3 +3,9 @@ type Item {
   text: String!
   done: Boolean!
 }
+
+type Mutation {
+  addTodo(text: String!): Boolean
+  deleteTodo(id: ID!): Boolean
+  TOGGLE_DONE(id: ID!): Boolean
+}

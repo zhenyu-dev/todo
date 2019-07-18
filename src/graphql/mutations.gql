@@ -1,0 +1,11 @@
+mutation ADD_TODO($text: String!) {
+  addTodo(text: $text) @client
+}
+
+mutation DELETE_TODO($id: ID!) {
+  deleteTodo(id: $id) @client
+}
+
+mutation TOGGLE_DONE($id: ID!) {
+  toggleDone(id: $id) @client
+}
