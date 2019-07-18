@@ -1,29 +1,17 @@
-# todo
+# 一个简单的 todo 应用，使用 vue-apollo & tailwindcss :wink:
 
-## Project setup
+## 安装
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 查看结果
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](./doc/images/todo_result.png)
